@@ -21,7 +21,7 @@
     height: 400px;
     background-image: url('../img/banner.jpg');
     background-position: center;
-    position: absolute;
+    position: relative;
 }
 
 .clearfix::after {
@@ -111,6 +111,16 @@ li a{
     background-color:rgba(0, 0, 0, 0.3);
     display: block;
     border-radius: 10px;
+  }
+
+  .first-main-text{
+      position: absolute;
+      width:50%;
+      border:1 dashed red;
+      left:40px;
+      bottom:40px;
+      color:white;
+      font-weight: normal;
   }
 
 
