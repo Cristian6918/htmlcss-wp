@@ -1,7 +1,7 @@
 *{
     margin:0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 /* all the main parts of the layout have the same properties */
@@ -31,33 +31,34 @@
   }
 
 
-.second-main{
-    background-color: hsl(208deg 100% 50%);
-}
+
 
 .foot {
     height: 75px;
-    background-color:hsl(272deg 99% 50%); 
+    
     margin-top:10px;
     margin-bottom:20px;
+    line-height: 75px;
+    vertical-align: center;
+    text-align:center;
 }
 
 .head-part{
     width: 100%;
     height: 100px;
-    background-color:hsl(204deg 56% 79%);
+    
     margin-bottom:20px;
     
 }
 
-.head-part p{
+ p{
     color:hsl(0deg 0% 88%);
 
 }
 
 .part{
     width: 23%;
-    height: 400px;
+    
     
     float: left;
     margin-bottom:20px;
@@ -65,8 +66,8 @@
 
 .central-part{
     width: 50%;
-    height: 400px;
-    background-color:hsl(204deg 56% 79%);   
+   
+   
     float: left;
     margin-bottom:20px;
     margin-left:2%;
@@ -140,7 +141,6 @@ li a{
   .first-main-text{
       position: absolute;
       width:50%;
-      border:1 dashed red;
       left:40px;
       bottom:40px;
       color:white;
@@ -153,8 +153,11 @@ li a{
     border-radius:10px;
     background-size: 100%;
     background-position: center;
+    margin-bottom:20px;
   }
-  
-  
 
-
+  
+  span{
+      color:red;
+      font-size:20px;
+  }
